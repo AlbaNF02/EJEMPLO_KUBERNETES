@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: calderonperaza/ejemplobackend:latest
+          image: alba721/backend_kubernetes:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 3000
@@ -53,7 +53,7 @@ metadata:
 spec:
   rules:
   - host: backend.io
-    http:
+    http: 
       paths:
       - path: /
         pathType: Prefix

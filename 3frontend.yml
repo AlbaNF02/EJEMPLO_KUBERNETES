@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: calderonperaza/ejemplofrontend:1.0.0
+        image: alba721/frontend_kubernetes:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 80
